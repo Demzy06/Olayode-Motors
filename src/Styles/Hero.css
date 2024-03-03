@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .hero-container{
   height: fit-content;
 }
@@ -126,7 +128,13 @@ margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-
+.about-us-btn{
+  background-color: #BE1717;
+  height: 2.8rem;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 9rem;
+}
 /* Customer rating */
 .customer-rating-container{
   background-color: #F6F6F6;
@@ -134,4 +142,35 @@ margin-bottom: 3rem;
 .customer-rating{
   width: 93%;
   margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.customer-rating>h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2E3642;
+}
+.customer-rating>p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.best-price-alight{
+  color: #BE1717;
+  font-weight: 500;
+}
+
+.satisfaction-section>div>img{
+  width:8rem ;
+  height: 8rem;
+  margin-bottom: 2rem;
+}
+
+.satisfaction-section>div>h4{
+  font-size: 35px;
+}
+
+.satisfaction-section>div>p{
+  margin-top: -14px;
+  font-size: 15px;
 }

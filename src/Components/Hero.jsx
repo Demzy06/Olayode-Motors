@@ -20,6 +20,9 @@ import GeneralMaintenanceImg  from '../assets/general-maintenancepic.jpg';
 import AcRepairPic from '../assets/AC-repair-pic.jpeg';
 import CarInteriorPic from '../assets/Car-interior-pic.jpg'
 import OilChangePic from '../assets/oil-change-pic.jpg';
+import CarIcon from '../assets/car-icon-1.png';
+import SatisfactionIcon from '../assets/satisfaction-1.png';
+import certifiedIcon from '../assets/circular-label-with-certified-stamp-1.png';
 const Hero = () => {
   return (
     <main className='hero-container'>
@@ -167,20 +170,43 @@ const Hero = () => {
           <h5 className='text-center'>Luxury Auto Dealership And Auto Services </h5>
           <p className='text-center'>OLAYODE MOTORS is one of the best automobile car dealers that renders auto services in Nigeria, with a reputable customer satisfaction. We proud ourselves with swift delivery within a pocket friendly budget, when it comes to car dealership and auto services in Nigeria.</p>
           <div className='d-flex justify-content-center'>
-          <button className='w-50 btn btn-danger '>More About us</button>
+          <button className='about-us-btn  text-light '>More About us</button>
           </div>
         </div>
       </article>
 
       {/* Customer rating */}
-      <section className='customer-rating-container mt-5 pt-5 pb-5'>
+      <aside className='customer-rating-container mt-5 pt-5 pb-5'>
         <div className='customer-rating text-center'>
-          <h5>Why Our Customers Choose Us</h5>
-          <p>As one of the best car dealers and auto sevices provider in Nigeria, we offer the best and also have the best price</p>
+          <h2 className='mb-4'>Why Our Customers Choose Us</h2>
+          <p>As one of the best car dealers and auto sevices provider in Nigeria, we offer the best and also have the <span className='best-price-alight'>best price</span></p>
           <p>Our unwavering commitment is to always prioritize our customer's satisfaction</p>
 
+          <div className='satisfaction-section'>
+
+            <div className='sold-cars-rating'>
+              <img src={CarIcon} alt="" />
+              <h4>300+</h4>
+              <p>VEHICLES SOLD YEARLY</p>
+            </div>
+
+            <div className='customer-satisfaction-rating'>
+              <img src={SatisfactionIcon} alt="" />
+              <h4>99%</h4>
+              <p>CUSTOMER SATISFACTION</p>
+            </div>
+
+            <div className='certified-rating'>
+              <img src={certifiedIcon} alt="" />
+              <h4>100%</h4>
+              <p>PREMIUM VEHICLES </p>
+            </div>
+
+          </div>
+
+
           </div>   
-      </section>
+      </aside>
     </main>
   )
 }

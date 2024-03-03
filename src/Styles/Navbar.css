@@ -1,3 +1,25 @@
-.hey{
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home-btn{
+  color: #BE1717;
+}
+.link:hover{
+  color: #BE1717;
+}
+
+.navbar-links{
+  width: 100%;
+}
+.navbar-links>div{
+  height: 3rem;
+  border-bottom: 1px;
+  border-color: #DDDDDD;
+  border-bottom-style: solid;
+  padding-left: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Noto Sans";
+}
+Link:hover{
+  background-color: blue;
 }
