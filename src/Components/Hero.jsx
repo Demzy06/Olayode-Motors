@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Hero.css'
+import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import CarSprayImg from '../assets/CarSpray.jpg';
 import CarSprayImg2 from '../assets/car-spray4.jpg'
@@ -170,7 +171,9 @@ const Hero = () => {
           <h5 className='text-center'>Luxury Auto Dealership And Auto Services </h5>
           <p className='text-center'>OLAYODE MOTORS is one of the best automobile car dealers that renders auto services in Nigeria, with a reputable customer satisfaction. We proud ourselves with swift delivery within a pocket friendly budget, when it comes to car dealership and auto services in Nigeria.</p>
           <div className='d-flex justify-content-center'>
+            <Link  to='/about'>
           <button className='about-us-btn  text-light '>More About us</button>
+            </Link>
           </div>
         </div>
       </article>

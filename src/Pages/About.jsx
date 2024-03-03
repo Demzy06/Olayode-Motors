@@ -3,6 +3,7 @@ import '../Styles/About.css'
 import MissionPic from '../assets/Mission-pic.jpg';
 import CustomerServicePic from '../assets/Customer-Service-pic.jpg';
 import CarServicePic from '../assets/carservice-img.jpg';
+import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <div>
