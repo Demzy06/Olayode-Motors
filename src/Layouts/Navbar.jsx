@@ -32,12 +32,12 @@ function NavBar() {
               </div>
 
               <div className='hey d-flex align-items-center'>
-              <Link to="/" className='text-decoration-none text-dark h-50'>
+              <Link to="/contact" className='text-decoration-none text-dark h-50'>
                 <p className='link'>Contact Us</p>
               </Link>
               </div>
 
-              <div href="#home" className='hey d-flex align-items-center'>
+              <div  className='hey d-flex align-items-center'>
               <Link to="/" className='text-decoration-none text-dark h-50'>
                 <p className='link'>Gallery</p>
               </Link>

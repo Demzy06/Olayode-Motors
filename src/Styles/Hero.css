@@ -101,7 +101,7 @@ margin-bottom: 3rem;
   height: 100%;
 }
 
-.our-services>div>p{
+.our-services>div>.services>p{
   height:4rem ;
   background-color: #BE1717;
   display: flex;

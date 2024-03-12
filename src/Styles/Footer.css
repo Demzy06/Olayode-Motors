@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Company socials */
+.company-socials{
+  background-color: #BE1717;
+  height: 6rem;
+}
+
+.company-socials>div{
+  width: 94%;
+  margin: auto;
+}
+.company-socials>div>h4{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.social-icons{
+width: 84%;
+}
+.social-icons>i{
+  font-size: 30px;
+}
+
+/* Customer care section */
+.customer-care{
+  width: 92%;
+  font-family: "Poppins", sans-serif;
+}
+
+.customer-care>div>i{
+  font-size: 25px;
+  color: #BE1717;
+}
+.customer-care>div>h3{
+  color: #BE1717;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: fit-content;
+}
+.customer-care>div{
+  /* height: 3.5rem; */
+  margin-bottom: 1.4rem;
+}
+.customer-care>div>div>p{
+  width: fit-content;
+}
+.customer-care>div>div>p:nth-child(1){
+  font-size: 13px;
+  font-weight: 700;
+}
+.customer-care>div>div>p:nth-child(2){
+  font-size: 14px;
+}
+
+/* Main company informations(company, Informations, Company, Products) */
+.main-company-footer-infos{
+  flex-wrap: wrap;
+  width: 92%;
+  margin: auto;
+}
+.main-company-footer-infos>div{
+  width: 50%;
+  height: fit-content;
+}
+
+.main-company-footer-infos>div>div>h3{
+  color: #BE1717;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+.main-company-footer-infos>div>p{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+
+}
+
+/* copyright styling */
+.copyright{
+  height: 6.8rem;
+  background-color: #010101;
+  padding-top: 2rem;
+}
+
+.copyright>p{
+  font-size: 13px;
+  color: #e5e7e6;
+  font-family: "Poppins", sans-serif;
+}
+
