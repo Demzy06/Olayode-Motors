@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <div>
-      <article className=''>
+      <article className='w-100'>
         <div className="about-us text-center m-auto pt-5 d-flex flex-column">
 
         <h2 className='mb-4'>About us</h2>
@@ -43,7 +43,7 @@ const About = () => {
           </div>
           </div>
 
-          <div className='personalities-card-grey pt-5 pb-5'>
+          <div className='personalities-card-grey pt-5 pb-5 w-100'>
           <div className='vehicle-service text-center m-auto'>
             <div className='img-container m-auto mb-4'>
             <img src={CarServicePic} alt="" />

@@ -148,28 +148,36 @@ const Hero = () => {
           
           <div>
             <img src={CarSprayImg4} alt="" />
+            <Link to='bodyWork' className='services text-light text-decoration-none'>
             <p>Body Work & Spraying</p>
+            </Link>
           </div>
 
           <div>
             <img src={AcRepairPic} alt="" />
+            <Link to='airMaintenance' className='services text-light text-decoration-none'>
             <p>A/C Maintenance</p>
+            </Link>
           </div>
 
           <div>
             <img src={CarInteriorPic} alt="" />
+            <Link to='vehicleUpholstery' className='services text-light text-decoration-none'>           
             <p>Vehicle Upholstery</p>
+            </Link>
           </div>
 
           <div>
             <img src={OilChangePic} alt="" />
+            <Link to='oilChange' className='services text-light text-decoration-none'>
             <p>Oil Change</p>
+            </Link>
           </div>
          </div>
       </section>
 
       {/* About Us */}
-      <article className='about-us-containe'>
+      <article className='about-us-containe m-auto'>
         <div className='about-us m-auto'>
           <h3>About Us</h3>
           <div className='os-underline'></div>
