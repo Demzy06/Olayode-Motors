@@ -141,7 +141,7 @@ const Hero = () => {
 
           <div>
             <img src={GeneralMaintenanceImg} alt="" />
-            <Link to='generalService' className='services text-light text-decoration-none'>
+            <Link to='generalService' className='services text-light text-decoration-none border-0'>
             <p>General Maintenance</p>
             </Link>
           </div>
@@ -155,21 +155,21 @@ const Hero = () => {
 
           <div>
             <img src={AcRepairPic} alt="" />
-            <Link to='airMaintenance' className='services text-light text-decoration-none'>
+            <Link to='airMaintenance' className='services text-light text-decoration-none boder-top-0'>
             <p>A/C Maintenance</p>
             </Link>
           </div>
 
           <div>
             <img src={CarInteriorPic} alt="" />
-            <Link to='vehicleUpholstery' className='services text-light text-decoration-none'>           
+            <Link to='vehicleUpholstery' className='services text-light text-decoration-none border-top-0' >           
             <p>Vehicle Upholstery</p>
             </Link>
           </div>
 
           <div>
             <img src={OilChangePic} alt="" />
-            <Link to='oilChange' className='services text-light text-decoration-none'>
+            <Link to='oilChange' className='services text-light text-decoration-none border-top-0'>
             <p>Oil Change</p>
             </Link>
           </div>

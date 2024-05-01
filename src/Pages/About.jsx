@@ -66,7 +66,10 @@ const About = () => {
 
             <div className='text-center pt-4 pb-4'>
               <h3 className='mb-3'>Save Big On Your Next Car</h3>
+              <Link to='/contact' className='text-decoration-none'>
+
               <button className='contact-us-btn text-light'>Contact Us </button>
+              </Link>
             </div>
         </section>
       </article>
