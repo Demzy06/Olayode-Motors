@@ -6,7 +6,7 @@ const GeneralService = () => {
 
   return (
     <div>
-      <section className='brief-talk-section pt-5 pb-5 ps-4'>
+      <section className='brief-talk-section pt-5 pb-5 ps-3'>
         
         <div  className='brief-talk '>
           <h3>Top Notch Maintenance</h3>
@@ -14,8 +14,9 @@ const GeneralService = () => {
         </div>
       </section>
 
-      <article className='m-auto'>
-        <h6>ABOUT OUR CAR MAINTENANCE SERVICES</h6>
+      <article className='m-auto mt-3'>
+        <h5>ABOUT OUR CAR MAINTENANCE SERVICES</h5>
+        <div className='gs-underline'></div>
         <p>Regular Maintenance is essential for every vehicle. By bringing your car in for services like a tune-up, oil changes, belt replacement, body work and spraying, and many more, you can avoid more costly repairs in the future.</p>
         
         <p>We at Olayode Motors & Repairs and our expert car repair technicians are herr to make sure your car runs the way it should. If you aren't sure what your car needs, <Link className='text-dark'>give us a call</Link> and schedule a tune-up to get started! </p>

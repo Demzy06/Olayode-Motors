@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Footer.css';
+import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <div>
@@ -7,7 +8,7 @@ const Footer = () => {
 
         <section className='company-socials text-light p-3'>
 
-          <div className=''>
+          <div className='/generalService'>
           <h4>Check Out Our Socials</h4>
 
           <div className='social-icons d-flex justify-content-between '>
@@ -49,17 +50,20 @@ const Footer = () => {
             <div>
               <h3>Services</h3>
             </div>
-            <p>General Maintenance</p>
-            <p>Oil Change</p>
-            <p>Body Work & Spraying</p>
-            <p>AC Maintenance</p>
+            <p><Link to='/generalService' className='text-decoration-none text-dark'>General Maintenance</Link></p>
+
+            <p><Link to='/oilChange' className='text-decoration-none text-dark'>Oil Change</Link></p>
+
+            <p><Link to='/bodyWork' className='text-decoration-none text-dark'>Body Work & Spraying</Link></p>
+
+            <p><Link to='/airMaintenance' className='text-decoration-none text-dark'>AC Maintenance</Link></p>
           </div>
 
           <div>
             <div>
               <h3>Information</h3>
             </div>
-            <p>Contact Us</p>
+            <p><Link to='/contact' className='text-decoration-none text-dark'>Contact Us</Link></p>
             <p>News</p>
             <p>Gallery</p>
           </div>
@@ -68,7 +72,7 @@ const Footer = () => {
             <div>
               <h3>Company</h3>
             </div>
-            <p>About Us</p>
+            <p><Link to='/about' className='text-decoration-none text-dark'>About Us</Link></p>
             <p>Our Blog</p>
           </div>
 

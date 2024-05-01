@@ -134,7 +134,7 @@ const Hero = () => {
         <div className="services-briefing my-5">
         <h3>Our Services</h3>
          <div className='os-underline'></div>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis quaerat quam enim vitae! Distinctio quos voluptates vitae obcaecati, suscipit alias officiis voluptatum maiores accusantium voluptatibus, consequatur dolor itaque sint?</p>
+         <p>Our automotive services prioritize both your car and your comfort. From routine maintenance to complex repairs, our friendly team ensures a seamless experience tailored to your needs. Trust us to keep you and your vehicle safely on the road.</p>
         </div>
 
          <div className='our-services text-light '>
