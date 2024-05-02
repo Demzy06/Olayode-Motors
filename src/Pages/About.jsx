@@ -29,7 +29,7 @@ const About = () => {
             </div>
 
             <h3>Our Mission</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et velit doloribus iure commodi aperiam sint aliquid veniam consectetur architecto?</p>
+            <p>At Olayode Motors & Repairs, we're dedicated to delivering automotive excellence through personalized service, craftmanship, and innovations. Our mission is to redefine the automotive experience by exceeding expectations and fostering long-lasting relationship with our clients.</p>
           </div>
           </div>
 
@@ -39,7 +39,7 @@ const About = () => {
             <img src={CustomerServicePic} alt="" className=''/>
             </div>
             <h3>Our Customer Service</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga nulla autem dolore facere corrupti tenetur tempora maiores ad harum recusandae?</p>
+            <p>We believe in treating our customers like family. Your satisfaction is our driving force, and we're committed to making every interaction as friendly, helpful, and hassle-free as possible. From answering questions to addressing your concerns, we're here to provide the support and assistance you need.</p>
           </div>
           </div>
 
@@ -49,7 +49,7 @@ const About = () => {
             <img src={CarServicePic} alt="" />
             </div>
             <h3>Vehicle Services</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum inventore delectus itaque! Omnis officiis, aliquid dolores porro placeat nihil.</p>
+            <p>Trust us for expert service, ensuring your ride runs smoothly and safely. Our skilled professionals provide meticulous care and attention to detail, keeping your car in top condition.</p>
           </div>
           </div>
             
