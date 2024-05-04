@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import '../Styles/GeneralServices.css'
 import GeneralServiceBgrcPic from '../assets/generalservice-bgrc-pic.jpg'
+import BookUsBtn from './BookUsBtn';
 const GeneralService = () => {
 
   return (
@@ -21,6 +22,7 @@ const GeneralService = () => {
         
         <p>We at Olayode Motors & Repairs and our expert car repair technicians are herr to make sure your car runs the way it should. If you aren't sure what your car needs, <Link className='text-dark'>give us a call</Link> and schedule a tune-up to get started! </p>
       </article>
+      <BookUsBtn/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/VehicleUpholstery.css'
+import BookUsBtn from './BookUsBtn'
 const VehicleUpholstery = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const VehicleUpholstery = () => {
         <p>Our team of skilled technicians brings years of experience and expertise to every upholstery project. Whether you're dealing with worn-out seats, faded carpets, or damaged headliners, we have the knowledge and skill to restore and enhance your vehicle's interior to its former glory.</p>
         <p></p>
       </article>
+      <BookUsBtn/>
     </div>
   )
 }

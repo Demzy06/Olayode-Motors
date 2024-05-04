@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/AirMaintenance.css';
+import BookUsBtn from './BookUsBtn';
 const AirMaintenance = () => {
   return (
     <div>
@@ -17,7 +18,7 @@ const AirMaintenance = () => {
         <p>With years of experience in the automotive industry, our technicians have the skill and knowledge to diagnose and repair any A/C issues your vehicle may be experiencing. From simple refrigerant recharges to complex compressor replacements, we've got you covered. </p>
         
         </article>
-      
+        <BookUsBtn/>
     </div>
   )
 }

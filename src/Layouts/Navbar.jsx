@@ -42,7 +42,6 @@ function NavBar() {
                 <p className='link'>Gallery</p>
               </Link>
               </div>
-            
 
           </Nav>
         </Navbar.Collapse>

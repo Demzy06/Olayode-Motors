@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/BodyWork.css'
 import BodyWorkImg2 from '../assets/body.jpg'
+import BookUsBtn from './BookUsBtn'
 const BodyWork = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const BodyWork = () => {
         <p>We know an accident is anything but convinent, which is why we restore vehicles to their original condition,delivering flawless finishes and unparalleled quality.</p>
         <p>Whether it's minor den repairs, extensive bodywork, or custom paint jobs, we provide personalized solutions to meet every customer's needs.</p>
         </article>
-      
+        <BookUsBtn/>
     </div>
   )
 }
