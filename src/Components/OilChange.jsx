@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/OilChange.css'
-import BookUsBtn from './BookUsBtn'
+import BookUsBtn from '../Components/BookUsBtn'
+import WhatsappPopUp from '../Components/WhatsappPopUp'
 const OilChange = () => {
   return (
     <div>
@@ -19,13 +20,7 @@ const OilChange = () => {
         <p>Consult Our experienced technicians today for your oil change.</p>
       </article>
       <BookUsBtn/>
-
-      {/* Oil Prices */}
-      {/* <div>
-        <section>
-
-        </section>
-      </div> */}
+      <WhatsappPopUp/>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styles/Hero.css'
 import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
+import WhatsappPopUp from '../Components/WhatsappPopUp';
 import CarSprayImg from '../assets/CarSpray.jpg';
 import CarSprayImg2 from '../assets/car-spray4.jpg'
 import CarSprayImg3 from '../assets/car-spray3.jpg';
@@ -24,6 +25,7 @@ import OilChangePic from '../assets/oil-change-pic.jpg';
 import CarIcon from '../assets/car-icon-1.png';
 import SatisfactionIcon from '../assets/satisfaction-1.png';
 import certifiedIcon from '../assets/circular-label-with-certified-stamp-1.png';
+
 const Hero = () => {
   return (
     <div>
@@ -32,7 +34,6 @@ const Hero = () => {
     <main className='hero-container'>
 
       {/*  Carousel section*/}
-      
       <div className='carousel'>
       <Carousel className='carousel-container w-100 m-auto'>
       <Carousel.Item className='carousel-items'>
@@ -49,8 +50,8 @@ const Hero = () => {
           src={CarSprayImg}
           alt="Second slide"
         />
-        
       </Carousel.Item>
+
       <Carousel.Item className='carousel-items'>
         <img
           className="d-block w-100"
@@ -128,9 +129,10 @@ const Hero = () => {
       </header>
 
       <hr/>
-
+      <WhatsappPopUp/>
       {/* Company Services */}
       <section className='company-services  mt-5'>
+      
         <div className="services-briefing my-5">
         <h3>Our Services</h3>
          <div className='os-underline'></div>
@@ -190,7 +192,7 @@ const Hero = () => {
           </div>
         </div>
       </article>
-
+      
       {/* Customer rating */}
       <aside className='customer-rating-container mt-5 pt-5 pb-5'>
         <div className='customer-rating text-center'>

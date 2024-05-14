@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand  href="#home">OLAYODE MOTORS & REPAIRS</Navbar.Brand>
+        <Navbar.Brand className='helooo' href="#home">OLAYODE MOTORS & REPAIRS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav" >
            <Nav className='navbar-links'>
@@ -25,19 +25,19 @@ function NavBar() {
               </Link>
               </div>
 
-              <div className='hey d-flex align-items-center'>
+              <div className=' d-flex align-items-center'>
               <Link to="/about" className='text-decoration-none text-dark h-50'>
                 <p className='link'>About Us</p>
               </Link>
               </div>
 
-              <div className='hey d-flex align-items-center'>
+              <div className='d-flex align-items-center'>
               <Link to="/contact" className='text-decoration-none text-dark h-50'>
                 <p className='link'>Contact Us</p>
               </Link>
               </div>
 
-              <div  className='hey d-flex align-items-center'>
+              <div  className='d-flex align-items-center'>
               <Link to="/" className='text-decoration-none text-dark h-50'>
                 <p className='link'>Gallery</p>
               </Link>

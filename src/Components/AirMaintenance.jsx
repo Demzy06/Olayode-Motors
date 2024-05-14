@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/AirMaintenance.css';
-import BookUsBtn from './BookUsBtn';
+import BookUsBtn from '../Components/BookUsBtn';
+import WhatsappPopUp from '../Components/WhatsappPopUp';
 const AirMaintenance = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const AirMaintenance = () => {
         
         </article>
         <BookUsBtn/>
+        <WhatsappPopUp/>
     </div>
   )
 }

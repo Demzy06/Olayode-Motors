@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/VehicleUpholstery.css'
-import BookUsBtn from './BookUsBtn'
+import BookUsBtn from '../Components/BookUsBtn'
+import WhatsappPopUp from '../Components/WhatsappPopUp'
 const VehicleUpholstery = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const VehicleUpholstery = () => {
         <p></p>
       </article>
       <BookUsBtn/>
+      <WhatsappPopUp/>
     </div>
   )
 }

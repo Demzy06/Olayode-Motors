@@ -6,6 +6,7 @@ const BookUsBtn = () => {
     <div>
       <Link to='/contact' className='ps-3'>
       <button className='book-us-btn '>Book An Appointment</button>
+      <div className='btn-underline'></div>
       </Link>
     </div>
   )

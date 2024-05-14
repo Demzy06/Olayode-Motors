@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Styles/BodyWork.css'
 import BodyWorkImg2 from '../assets/body.jpg'
-import BookUsBtn from './BookUsBtn'
+import BookUsBtn from '../Components/BookUsBtn';
+import WhatsappPopUp from '../Components/WhatsappPopUp';
 const BodyWork = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const BodyWork = () => {
         <p>Whether it's minor den repairs, extensive bodywork, or custom paint jobs, we provide personalized solutions to meet every customer's needs.</p>
         </article>
         <BookUsBtn/>
+        <WhatsappPopUp/>
     </div>
   )
 }
