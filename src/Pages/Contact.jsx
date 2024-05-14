@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/Contact.css';
+import WhatsappPopUp from '../Components/WhatsappPopUp';
 import ContactPic from '../assets/contact-us-pic.jpg';
 const Contact = () => {
   const myStyle ={
@@ -26,6 +27,7 @@ const Contact = () => {
           <p className='mb-4'>+234-806-818-9900</p>
         </div>
       </section>
+      <WhatsappPopUp/>
     </div>
   )
 }

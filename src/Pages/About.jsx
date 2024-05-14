@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/About.css'
+import WhatsappPopUp from '../Components/WhatsappPopUp';
 import MissionPic from '../assets/Mission-pic.jpg';
 import CustomerServicePic from '../assets/Customer-Service-pic.jpg';
 import CarServicePic from '../assets/carservice-img.jpg';
@@ -52,17 +53,6 @@ const About = () => {
             <p>Trust us for expert service, ensuring your ride runs smoothly and safely. Our skilled professionals provide meticulous care and attention to detail, keeping your car in top condition.</p>
           </div>
           </div>
-            
-
-            {/* <div>
-          <div>
-            <div>
-            <img src="" alt="" />
-            </div>
-            <h5></h5>
-            <p></p>
-          </div>
-            </div> */}
 
             <div className='text-center pt-4 pb-4'>
               <h3 className='mb-3'>Save Big On Your Next Car</h3>
@@ -73,6 +63,7 @@ const About = () => {
             </div>
         </section>
       </article>
+      <WhatsappPopUp/>
     </div>
   )
 }
