@@ -14,8 +14,8 @@ const NissanVid = () => {
       playing={true}
       controls={true}
       muted
-      width='265px'
-      height='250px'
+      width='320px'
+      height='330px'
       className=''
       
       
