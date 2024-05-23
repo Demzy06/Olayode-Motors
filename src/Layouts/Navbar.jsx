@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../Styles/Navbar.css';
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function NavBar() {
   return (
@@ -11,7 +12,7 @@ function NavBar() {
         <Navbar.Brand className='helooo' href="#home">OLAYODE MOTORS & REPAIRS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav" >
-           <Nav className='navbar-links'>
+           <Nav className= 'navbar-links'>
             
             <div className='d-flex align-items-center'>
               <Link to="/" className='hey text-decoration-none text-dark h-50'>
@@ -38,7 +39,7 @@ function NavBar() {
               </div>
 
               <div  className='d-flex align-items-center'>
-              <Link to="/" className='text-decoration-none text-dark h-50'>
+              <Link to="gallery" className='text-decoration-none text-dark h-50'>
                 <p className='link'>Gallery</p>
               </Link>
               </div>
